@@ -1,3 +1,9 @@
+puppet-module-nfsd (1.0.2) UNRELEASED; urgency=low
+
+  * Make sure exported directories exist
+
+ -- Damian Lukowski <damian.lukowski@credativ.de>  Fri, 06 Jun 2014 20:31:48 +0200
+
 puppet-module-nfsd (1.0.1) unstable; urgency=low
 
   * Initial release.

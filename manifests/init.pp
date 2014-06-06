@@ -23,6 +23,12 @@ class nfsd (
     ensure  => 'installed',
   }
 
+  file { [ keys($exports) ]:
+    ensure  => directory,
+    owner   => 'root',
+    group   => 'root',
+  }
+
   file { $exports_file:
     ensure  => file,
     owner   => 'root',
