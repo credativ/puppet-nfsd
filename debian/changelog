@@ -1,4 +1,4 @@
-puppet-module-nfsd (1.0.2) UNRELEASED; urgency=low
+puppet-module-nfsd (1.0.2) unstable; urgency=low
 
   * Make sure exported directories exist
 
