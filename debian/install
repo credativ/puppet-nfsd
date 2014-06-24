@@ -1,2 +1,2 @@
-manifests   etc/puppet/modules/nfsd
-templates   etc/puppet/modules/nfsd
+manifests   usr/share/puppet/modules.available/nfsd
+templates   usr/share/puppet/modules.available/nfsd
