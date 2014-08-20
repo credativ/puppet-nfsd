@@ -1,3 +1,4 @@
+# MANAGED BY PUPPET (nfsd/templates, via params/hiera)
 <%- exports.each do |export,options| -%>
 <%= export -%>  <%= options['to'] -%>(<%= options['opts'] -%>)
 <%- end -%>
